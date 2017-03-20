@@ -29,20 +29,12 @@ If you're using this in a project, use `pip`
 pip install webpack-manifest
 ```
 
-If you're using this in an redistributable app or library, just copy the [loader's file](webpack_manifest/webpack_manifest.py) 
+If you're using this in an redistributable app or library, just copy the [loader's file](webpack_manifest/webpack_manifest.py)
 in so that you can avoid causing any dependency pains downstream.
 
 
 Usage
 -----
-
-If you installed with pip, import it with
-
-```python
-from webpack_manifest import webpack_manifest
-```
-
-If you copied the source file in, import it with
 
 ```python
 import webpack_manifest
