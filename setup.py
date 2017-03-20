@@ -1,9 +1,9 @@
 from setuptools import setup
-from webpack_manifest import webpack_manifest
+from webpack_manifest import WEBPACK_MANIFEST_VERSION
 
 setup(
     name='webpack-manifest',
-    version=webpack_manifest.__version__,
+    version=WEBPACK_MANIFEST_VERSION,
     packages=['webpack_manifest'],
     description='Manifest loader that allows you to include references to files built by webpack',
     long_description='Documentation at https://github.com/markfinger/python-webpack-manifest',
